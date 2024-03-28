@@ -13,4 +13,4 @@ on:
 
 jobs:
   call-workflow-in-local-repo:
-    uses: PraveenMalethia/pythontest1/.github/workflows/lint.yml@master
+    uses: PraveenMalethia/pythontest1/.github/workflows/lint.yml@main
