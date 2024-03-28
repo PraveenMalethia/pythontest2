@@ -1,0 +1,16 @@
+name: Lint Python Code
+
+
+on:
+  pull_request:
+    paths:
+      - "**/*.py"
+    branches:
+      - main
+      - 'release/**'
+  workflow_dispatch:
+
+
+jobs:
+  call-workflow-in-local-repo:
+    uses: PraveenMalethia/pythontest1/.github/workflows/lint.yml@master
