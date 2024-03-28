@@ -2,12 +2,6 @@ name: Lint Python Code
 
 
 on:
-  pull_request:
-    paths:
-      - "**/*.py"
-    branches:
-      - main
-      - 'release/**'
   workflow_dispatch:
 
 
