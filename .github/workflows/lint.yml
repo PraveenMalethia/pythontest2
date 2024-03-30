@@ -2,9 +2,9 @@ name: Lint Python Code
 
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 
 jobs:
   call-workflow-in-local-repo:
-    uses: PraveenMalethia/pythontest1/.github/workflows/lint.yml@main
+    uses: PraveenMalethia/pythontest1/.github/workflows/lint-python.yml@main
